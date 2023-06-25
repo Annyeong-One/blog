@@ -126,6 +126,7 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
+    enable      : true
     clientID    : 065cb2bacba224c245e4
     clientSecret: 5b6fd1a254424c81a273c8513176a03d817dba30
     repository  : blog
