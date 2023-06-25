@@ -20,9 +20,9 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : "https://annyeong-one.github.io"
 baseurl : "/blog"
-title   : gs22059 블로그
+title   : 안녕원블로그
 description: > 
-  PS랑 기타 뻘짓하는 블로그
+  안녕원이 Shitpost 올리는 블로그
 
 
 ## => Language and Timezone
@@ -35,7 +35,7 @@ timezone: KR
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : "gs22059"
+  name      : "annyeong1"
   url       : "https://annyeong-one.github.io/blog"
   avatar    : # path or url of avatar image (square)
   bio       : I suck.
@@ -84,19 +84,18 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
+mathjax: true
 mathjax_autoNumber: # false (default), true
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid: true
 
 ## Chart
-chart: # false (default), true
-
+chart: true
 
 ## => Paginate
 ##############################
-paginate: 8
+paginate: 20
 paginate_path: /page:num # don't change this unless for special need
 
 
@@ -118,21 +117,20 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: "disqus"
+  provider: "gitalk"
 
   ## Disqus
   disqus:
-    shortname: "annyeong1"
+    shortname: 
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
+    clientID    : 065cb2bacba224c245e4
+    clientSecret: 5b6fd1a254424c81a273c8513176a03d817dba30
+    repository  : blog
+    owner       : Annyeong-One
+    admin: ['Annyeong-One',]
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
