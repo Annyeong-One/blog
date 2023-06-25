@@ -3,6 +3,7 @@ key: jekyll-text-theme
 title: Hello World!
 excerpt: First upload
 tags: [meta, other]
+comments: true
 ---
 
 첫 글입니다.
