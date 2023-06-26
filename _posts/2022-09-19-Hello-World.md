@@ -4,6 +4,7 @@ title: Hello World!
 excerpt: First upload
 tags: [meta, other]
 comments: true
+key: 220919
 ---
 
 첫 글입니다.
