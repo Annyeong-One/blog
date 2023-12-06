@@ -18,8 +18,8 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : "https://annyeong-one.github.io"
-baseurl : "/blog"
+url     : "https://blog.annyeong.one"
+baseurl : ""
 title   : 안녕원블로그
 description: > 
   안녕원이 Shitpost 올리는 블로그
@@ -36,7 +36,7 @@ timezone: KR
 author:
   type      : # "person" (default), "organization"
   name      : "annyeong1"
-  url       : "https://annyeong-one.github.io/blog"
+  url       : "https://annyeong-one.github.io"
   avatar    : # path or url of avatar image (square)
   bio       : I suck.
   email     : "yoon0421alt@gmail.com"
